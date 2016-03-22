@@ -1,3 +1,3 @@
 # Calendaring-system
 学生日程管理系统的服务器端
-采用nodejs+mangodb来实现移动开发后端的服务
+集中注意力，攻克java，nodejs和mongodb作为测试的辅助工具开发进行简单应用，项目使用spring+springmvc+hibernate来实现
