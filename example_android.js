@@ -1,3 +1,5 @@
+//用来检测http请求专用
+//TODO：做个端口输入
 var http = require('http');  
 var server = http.createServer();  
 var querystring = require('querystring');  
