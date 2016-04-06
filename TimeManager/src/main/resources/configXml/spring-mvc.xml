@@ -21,7 +21,7 @@
 		/> -->
 	<!--启动Spring MVC注解 -->
 	<mvc:annotation-driven />
-	<context:component-scan	base-package="com.alphaking.base.controller,com.alphaking.controllerImpl" />
+	<context:component-scan	base-package="com.mumudev.controller,com.mumudev.controllerImpl" />
 	
 	<mvc:resources mapping="/resources/**" location="/resources/" />
 
@@ -30,7 +30,7 @@
 		class="org.springframework.web.servlet.view.InternalResourceViewResolver"
 		p:prefix="/WEB-INF/jsp/" p:suffix=".jsp" />
 
-
+ 
 
 	<!-- 配置文件上传 -->
 	<bean id="multipartResolver"

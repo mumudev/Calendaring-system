@@ -23,7 +23,7 @@
 		<!-- 设置spring去哪个包中查找相应的实体类 -->
 		<property name="packagesToScan">
 			<list>
-				<value>com.alphaking.model</value>
+				<value>com.mumudev.dao.model</value>
 			</list>
 		</property>
 		<property name="hibernateProperties">
